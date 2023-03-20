@@ -13,12 +13,11 @@ public class CadastroDePessoaMain {
 
         System.out.println("Qual seu nome? ");
         pessoa.setNome(entrada.nextLine());
+        System.out.println("Qual seu endereço? ");
+        pessoa.setEndereco(entrada.nextLine());
 
         System.out.println("Qual sua idade? ");
         pessoa.setIdade(entrada.nextInt());
-
-        System.out.println("Qual seu endereço? ");
-        pessoa.setEndereco(entrada.next());
 
 
         System.out.println("Nome: " + pessoa.getNome() +
